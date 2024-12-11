@@ -1,0 +1,130 @@
+.ParentContainer{
+    padding: 1rem;
+}
+.CardsHeader h1{
+    font-size: 2.4rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.CardsHeader p{
+    font-size: 1.3rem;
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+.ServiceCard{
+    gap: 1rem;
+    width: 350px;
+    display: flex;
+    border-radius: 1rem;
+    align-items: center;
+    background: #edede9;
+    padding: 4rem .5rem;
+    justify-content: center;
+}
+.ServiceCard .gridIcon{
+    font-size: 2.5rem;
+}
+.ServicesContent{
+    justify-items: center;
+}
+.ServicesContent button{
+    border: none;
+    font-size: 1.2rem;
+    margin: 2rem 0rem;
+    border-radius: 1rem;
+    padding: .8rem 1.5rem;
+    background: #F7A66B;
+}
+.servicesCards{
+    gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.portfolioCards, .testimonialCards{
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 3rem;
+    justify-content: center;
+}
+.PortfolioCard{
+    width: 330px;
+    height: 420px;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 2px solid #000;
+}
+.PortfolioIcons{
+    font-size: 2.5rem;
+}
+.PortfolioCard div{
+    padding-bottom: 1rem;
+}
+.PortfolioCard h2{
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+}
+.PortfolioCard p{
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+.buttonR{
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    background: #000;
+    border-radius: 1rem;
+    padding: .8rem 1.8rem;
+}
+.PortfolioCard button{
+    border: none;
+    border-radius: 1rem;
+}
+.TestimonialCard{
+    width: 330px;
+    padding: 2rem 1rem;
+    position: relative;
+    border-radius: 1rem;
+}
+.testimonialIconDiv{
+    top: 0px;
+    right: 35%;
+    width: 90px;
+    height: 90px;
+    display: grid;  
+    border-radius: 50%;
+    position: absolute;
+    align-items: center;
+    background: #000;
+    justify-content: center;
+    outline: 5px solid #ddd;
+}
+.testimonialIconDiv .testimonialIcon{
+    color: #fff;
+    font-size: 3rem;   
+}
+.testimonialDetails{
+    text-align: center;
+    border-radius: 1rem;
+    background: #edede9;
+    padding: 5rem 2rem .8rem 2rem;
+}
+.testimonialDetails p {
+    padding-bottom: 1.5rem;
+}
+@media (width <= 350px) {
+    .ServiceCard{
+        width: 300px;
+    }
+    .PortfolioCard h2{
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .PortfolioCard p{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+}

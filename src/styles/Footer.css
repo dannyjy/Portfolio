@@ -1,0 +1,47 @@
+.footer{
+    gap: 3rem;
+    display: flex;
+    color: #fff;
+    padding: 4rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+}
+.webName h1{
+    font-size: 4rem;
+}
+.LinksList{
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    display: flex;
+}
+.LinksList .findmeIcons{
+    font-size: 2rem;
+}
+._findme{
+    gap: 1rem;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+._findme li, ._findme li a{
+    color: #fff;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-decoration: none;
+}
+@media (width <= 350px) {
+    .footer{
+        padding: 3rem;
+    }
+    .webName h1{
+        font-size: 3rem;
+    }
+    ._findme li a{
+        font-size: 1.3rem;
+    }
+}

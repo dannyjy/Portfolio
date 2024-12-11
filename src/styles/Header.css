@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    max-width: 1600px;
+    background: #ddd;
+}
+.Nav{
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    justify-content: space-between;
+}
+.Nav h1{
+    font-size: 2.2rem;
+}
+.Nav ul, .Nav ul li, .Nav ul li a{
+    gap: 2.2rem;
+    display: flex;
+    color: #000;
+    list-style: none;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.Nav button{
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    padding: .8rem 1rem;
+    background: #F7A66B;
+}
+.Main{
+    gap: 3rem;
+    display: flex;
+    padding: 2rem;
+    padding-bottom: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.MainContent .BasicInfo{
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.MainContent .BasicDetails, .aboutList{
+    gap: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.btns button:nth-child(1){
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    padding: .8rem 1.5rem;
+}
+.btns button:nth-child(2){
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    padding: .8rem 1.5rem;
+    background: #F7A66B;
+}
+.Main .ImageContent{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #F7A66B;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/src/images/danny.jpeg");
+}
+.H_footer, .footerList{
+    gap: 1rem;
+    display: flex;
+}
+.startIcon{
+    color: #F7A66B;
+}
+.footerList{
+    display: flex;
+    color: #fff;
+    padding: 2rem;
+    flex-wrap: wrap;
+    background: #000;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Nav .menuIcons{
+    display: none;
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+.findLinks{
+    display: none;
+}
+@media (width <= 1050px) {
+    .Nav{
+        position: relative;
+    }
+    .Nav button, .Nav ul{
+        display: none;
+    }
+    .Nav .menuIcons{
+        display: block;
+    }
+    .Nav .links{
+        top: 80px;
+        right: 10px;
+        display: block;
+        padding: 1rem 2rem;
+        background: #333;
+        position: absolute;
+        border-radius: .5rem;
+    }
+    .Nav .NavBtn{
+        display: block;
+    }
+    .Nav ul li a{
+        color: #e9e7e7;
+        font-size: 1.6rem;
+        padding: .8rem 1rem;
+    }
+    .Main{
+        gap: 2rem;
+    }
+    .MainContent .BasicInfo{
+        font-size: 1rem;
+    }
+    .MainContent .BasicDetails .aboutList{
+        font-size: 1.2rem;
+    }
+    .footerList{
+        padding: 1.5rem;
+        font-size: 1rem;
+    }
+    .Main .ImageContent{
+        width: 260px;
+        height: 260px;
+    }
+}
+@media (width <= 650px) {
+    .Nav{
+        padding: 1rem;
+    }
+    .Main{
+
+        padding: 1rem;
+        padding-bottom: 3rem;
+        flex-wrap: wrap-reverse;
+    }
+    .MainContent .BasicInfo{
+        font-size: .9rem;
+    }
+    .MainContent .BasicDetails .aboutList{
+        font-size: 1.1rem;
+    }
+    .Main .ImageContent{
+        width: 220px;
+        height: 220px;
+    }
+    .footerList{
+        padding: 1.2rem;
+        font-size: .9rem;
+    }
+    .BasicContent{
+        flex-wrap: wrap;
+        gap: 1rem;
+        display: flex;
+        align-items: center;
+    }
+    .findLinks{
+        align-items: center;
+        display: block;
+    }
+    .findLinks .findIcons{
+        font-size: 2rem;
+    }
+}
+@media (width <= 380px) {
+    .MainContent .BasicInfo{
+       font-size: .8rem;
+    }
+    .MainContent .BasicDetails .aboutList{
+       font-size: 1rem;
+    }
+    .btns button:nth-child(1){
+        font-size: .9rem;
+    }
+    .btns button:nth-child(2){
+        font-size: 1rem;
+    }
+}
+@media (width <= 320px) {
+    .MainContent .BasicInfo{
+       font-size: .7rem;
+    }
+    .MainContent .BasicDetails .aboutList{
+       font-size: .8rem;
+    }
+    .btns button:nth-child(1){
+        font-size: .76rem;
+    }
+    .btns button:nth-child(2){
+        font-size: .8rem;
+    }
+}
