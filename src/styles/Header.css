@@ -93,6 +93,7 @@ body{
     padding: 2rem;
     flex-wrap: wrap;
     background: #000;
+    margin-bottom: 2.5rem;
     align-items: center;
     justify-content: space-evenly;
 }

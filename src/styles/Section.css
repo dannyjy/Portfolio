@@ -25,14 +25,15 @@
     font-size: 2.5rem;
 }
 .ServicesContent{
+    margin-bottom: 3.5rem;
     justify-items: center;
 }
 .ServicesContent button{
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin: 2rem 0rem;
     border-radius: 1rem;
-    padding: .8rem 1.5rem;
+    padding: .8rem 2.5rem;
     background: #F7A66B;
 }
 .servicesCards{
@@ -49,6 +50,9 @@
     align-items: center;
     padding-bottom: 3rem;
     justify-content: center;
+}
+.PortfolioContent{
+    margin-bottom: 3.5rem;
 }
 .PortfolioCard{
     width: 330px;
